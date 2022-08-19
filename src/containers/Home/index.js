@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react"
 import { useHistory } from "react-router-dom";
 
 import axios from 'axios';
-import People from '../../img/login-.png'
+import Burguer from '../../img/burger.svg'
 import Arrow from '../../img/arrow-2.svg'
 
 import {
@@ -62,18 +62,18 @@ function App() {
   return (
 
     <Container>
-      <Image alt="logo-imagem" src={People}></Image>
+      <Image alt="logo-imagem" src={Burguer}></Image>
       <ContainerItens>
-        <H1> Olá!</H1>
+        <H1> Faça seu pedido!</H1>
 
-        <InputLabel>Nome</InputLabel>
-        <Input ref={inputName} placeholder="Nome"></Input>
+        <InputLabel>Pedido</InputLabel>
+        <Input ref={inputName} placeholder="1 X-salada,1 coca-cola"></Input>
 
-        <InputLabel>Idade</InputLabel>
-        <Input ref={inputAge} placeholder="Idade"></Input>
+        <InputLabel>Nome do Cliente</InputLabel>
+        <Input ref={inputAge} placeholder="nome"></Input>
 
         <Button onClick={addNewUser}>
-          Cadastrar <img alt="seta" src={Arrow}></img>
+          Novo pedido <img alt="seta" src={Arrow}></img>
         </Button>
 
       </ContainerItens>

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Background from "../../img/bg2.jpg"
+import Background from "../../img/background.svg"
 
 
 
@@ -22,10 +22,11 @@ margin-top: 30px;
 
 
 export const ContainerItens = styled.div`
-background: linear-gradient(157.44deg, 
-    rgba(255, 255, 255, 0.6) 0.84%, 
-    rgba(255, 255, 255, 0.6) 0.85%, 
-    rgba(255, 255, 255, 0.15) 100%);
+background: #0A0A10;
+//background: linear-gradient(157.44deg, 
+  //  rgba(255, 255, 255, 0.6) 0.84%, 
+   // rgba(255, 255, 255, 0.6) 0.85%, 
+  //  rgba(255, 255, 255, 0.15) 100%);
 border-radius: 61px 61px 0px 0px;
 backdrop-filter: blur(45px);
 padding: 50px 36px;
@@ -88,7 +89,9 @@ display:flex;
 justify-content: space-around;
 align-items: center;
 width: 342px;
-height: 58px;
+height: 101px;
+//width: 360px; //342
+//height: 65px; //58
 border: none;
 outline: none;
 background: rgba(255, 255, 255, 0.25);
@@ -99,7 +102,7 @@ margin-top: 20px;
 p{
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 18px; //20
 line-height: 28px;
 color: #FFFFFF;
 }

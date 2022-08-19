@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { useHistory } from 'react-router-dom'
 
 import axios from 'axios';
-import Avatar from '../../img/avatar.svg'
+import Pedido from '../../img/pedido.svg'
 import Arrow from '../../img/arrow-2.svg'
 import Trash from '../../img/delete.svg'
 
@@ -46,9 +46,9 @@ function Users() {
   return (
 
     <Container>
-      <Image alt="logo-imagem" src={Avatar}></Image>
+      <Image alt="logo-imagem" src={Pedido}></Image>
       <ContainerItens>
-        <H1> Usuários</H1>
+        <H1> Pedidos</H1>
 
         <ul>
           {users.map((user) => (

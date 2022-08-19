@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import Background from "../../img/bgimage.jpg";
-
+import Background from "../../img/background.svg";
 
 
 
@@ -16,16 +15,16 @@ export const Container = styled.div`
 
 
 export const Image = styled.img`
-margin-top: 30px;
+margin-top: 10px;
 
 `;
 
 
 export const ContainerItens = styled.div`
-background: linear-gradient(157.44deg, 
-    rgba(255, 255, 255, 0.6) 0.84%, 
-    rgba(255, 255, 255, 0.6) 0.85%, 
-    rgba(255, 255, 255, 0.15) 100%);
+//background: linear-gradient(157.44deg, 
+// rgba(255, 255, 255, 0.6) 0.84%, 
+ //rgba(255, 255, 255, 0.6) 0.85%, 
+//rgba(255, 255, 255, 0.15) 100%);
 border-radius: 61px 61px 0px 0px;
 padding: 50px 36px;
 display: flex;
@@ -42,7 +41,7 @@ font-size: 34px;
 line-height: 40px;
 text-align: center;
 color: #FFFFFF;
-margin-bottom: 80px;
+margin-bottom: 20px; //80
 
 
 `;
@@ -64,8 +63,8 @@ margin-left: 25px;
 `;
 
 export const Input = styled.input`
-width: 342px;
-height: 58px;
+width: 360px; //342
+height: 65px; //58
 padding-left: 25px;
 border: none;
 outline: none;
@@ -85,10 +84,10 @@ margin-bottom: 34px;
 export const Button = styled.button`
 width: 342px;
 height: 74px;
-margin-top: 130px;
+margin-top: 40px; //130
 border: none;
-background: rgba(0, 0, 0, 0.8);
-border-radius: 14px;
+background: #D93856;
+//border-radius: 14px;
 font-style: normal;
 font-weight: 700;
 font-size: 17px;
