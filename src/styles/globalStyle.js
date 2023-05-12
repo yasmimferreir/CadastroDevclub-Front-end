@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export default createGlobalStyle `
+export default createGlobalStyle`
 
 * {
     margin: 0;
@@ -8,6 +8,7 @@ export default createGlobalStyle `
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    overflow: hidden;
 }
 
 
