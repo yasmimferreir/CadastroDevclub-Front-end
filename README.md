@@ -1,47 +1,81 @@
-<h1> Aplicação React Cadastro <br>
+# CadastroDevclub-Front-end
+⚛ Development with ReactJs CadastroDevclub-Front-end - API Axios
 
-<br>![react](https://user-images.githubusercontent.com/97356148/184691336-7ec7e970-4605-4d7d-b8c2-627f3f46f49d.jpg)
-<br>📄 Explicação
+### 📑Explicação
 
-<h3>O projeto de cadastramento foi criado com objetivo de colocar em prática meus conhecimentos em ReactJs,e podendo verificar os dados referentes do cadastro,
-
- relacionado ao curso Devclub - Desenvolvedor Full Stack.
-
-<h3>O projeto consiste em uma interface simples, aonde pode cadastrar novos usuários no Back-end, nome e idade referente do usuário, com possibilidade também de excluir usuários especificos, navegar entre telas.
-
-
-<br><h1>📁 Páginas
-<h3>O site tem no total 2 páginas, sendo elas:
-<h3>Página principal: A página principal consiste em uma interface de cadastro de nome é idade.
-<br>🎯 Etapas
-<br>✔️ Desenvolver a interaface com a biblioteca ReactJs.
-<br>✔️ Adicionar o evento de clique ao teclar Cadastrar  para que seja pego os valores no servidor e feita a requisição.
-<br>✔️ Fazer a requisição para cadastrar o usuário.
-<br>✔️ Organizar as informações retornadas pela requisição em objetos para poder manipular facilmente os dados.
+Projeto focado nas habilidades Front-end com ReactJs e manipulação com API axios, desenvolvimento de sistema Web, contém boas práticas de utilizar Hooks ReactJs, tela de Login, podendo verificar os dados referentes do cadastro, relacionado ao curso Devclub - Desenvolvedor Full Stack. O projeto consiste em uma interface simples, aonde pode cadastrar novos usuários no Back-end, nome e idade referente do usuário, com possibilidade também de excluir usuários especificos, navegar entre telas.
+<br>
 
 <br>
-<br>Página secundaria: A página secundaria exibe os dados cadastrados, possibilitando deletar ou voltar para página principal.
-
-<br>🎯 Etapas
-<br>✔️ Desenvolver a interaface com a biblioteca ReactJs.
-<br>✔️ Adicionar o evento voltar para página principal.
-<br>✔️ Verificar a requisição do cadastramento do usuário está certa.
-<br>✔️ Pegando as informações do objeto da etapa anterior e jogando na tela secundaria de forma visível ao usuário.
-<br>✔️ Deletar usuário especifico.
-<br>✔️ Projeto Finalizado.
 
 
-<h1>🚀 Tecnologias
-<br><h3>ReactJs
-<br><h3>JavaScript
-<br><h3>Css
-<br><h3>Html
+⚔️ Utilização de ferramenta no Front-end / ***ReactJs***:
+
+```
+npx create-react-app 
+```
+<br>
+
+⚔️ Utilização de ferramenta no Front-end / ***Axios***:
+
+```
+yarn add axios 
+```
+<br>
+
+<br>
 
 
-<br>🤝 Colaborador(a)
- <br>Yasmim Ferreira Costa
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Você instalou a versão mais recente de  NodeJs
+* Você tem uma máquina Windows 
+
+## 🚀 Instalando o projeto 
+
+Para instalar o projeto, siga estas etapas:
+
+Windows: <br>
+git clone `url`.
+
+## 📫 Contribuindo para o Projeto 
+<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+Para contribuir com o projeto, siga estas etapas:
+
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
+
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://user-images.githubusercontent.com/97356148/200590856-942d44a8-f136-4320-a381-699ecbc0d6ec.JPG" width="100px;" alt="Foto Yasmim Ferreira Costa"/><br>
+        <sub>
+          <b>Yasmim Ferreira Costa</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 
+## 😄 Seja um dos contribuidores<br>
 
- 
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
+[⬆ Voltar ao topo](#CadastroDevclub-Front-end)<br>
