@@ -6,6 +6,15 @@
 Projeto focado nas habilidades Front-end com ReactJs e manipulação com API axios, desenvolvimento de sistema Web, contém boas práticas de utilizar Hooks ReactJs, tela de Login, podendo verificar os dados referentes do cadastro, relacionado ao curso Devclub - Desenvolvedor Full Stack. O projeto consiste em uma interface simples, aonde pode cadastrar novos usuários no Back-end, nome e idade referente do usuário, com possibilidade também de excluir usuários especificos, navegar entre telas.
 <br>
 
+
+🚀 Projeto 
+<br>
+
+<img src="https://github.com/yasmimferreir/CadastroDevclub-Back-end/assets/97356148/4367deaf-f020-49f9-9cee-507d9a4c0d52" width="900px">
+
+<br>
+
+
 <br>
 
 
