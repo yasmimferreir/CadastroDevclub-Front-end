@@ -38,7 +38,9 @@ export const H1 = styled.h1`
 `;
 
 export const InputLabel = styled.p`
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  // position: ;
   right: 150px;
   margin-top: 2rem;
 `;
@@ -53,6 +55,8 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
+  display: flex;
+  flex-direction: column;
   width: 10rem;
   height: 2.5rem;
   margin-top: 130px;

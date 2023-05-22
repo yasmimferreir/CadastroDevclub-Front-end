@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
 import People from "../../img/templete.svg";
+import { useForm } from "react-hook-form";
 
 import {
   Container,
@@ -14,6 +15,9 @@ import {
 } from "./styles";
 
 function App() {
+  const { handleSubmit } = useForm();
+  const onSubmit = (data) => console.log(data);
+
   const [users, setUsers] = useState([]);
   const history = useHistory();
   const inputName = useRef();
@@ -38,13 +42,23 @@ function App() {
       <ContainerItens>
         <H1> Bem-vindos ao Login</H1>
 
-        <InputLabel>Nome</InputLabel>
-        <Input ref={inputName} required type="text" />
+        <form onSubmit={handleSubmit(onSubmit)}>
+          <InputLabel>Nome</InputLabel>
 
-        <InputLabel>Idade</InputLabel>
-        <Input ref={inputAge} required type="number" />
+          <Input ref={inputName} type="text" typeof="text" Required="Nome" />
 
-        <Button onClick={addNewUser}>Cadastrar</Button>
+          <InputLabel>Idade</InputLabel>
+
+          <Input
+            ref={inputAge}
+            type="number"
+            typeof="number"
+            Required="No minimo 2 digitos"
+            minLength={2}
+          />
+
+          <Button onClick={addNewUser}>Cadastrar</Button>
+        </form>
       </ContainerItens>
     </Container>
   );
